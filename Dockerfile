@@ -8,7 +8,7 @@ ENV MEMORY_CACHE=1
 # max number of objects in cache
 ENV CACHE_MAXSIZE=100
 # time to live in seconds
-ENV CACHE_TTL=86400
+ENV CACHE_TTL=600
 
 # install chromium, tini and clear cache
 RUN apk add --update-cache chromium tini \
